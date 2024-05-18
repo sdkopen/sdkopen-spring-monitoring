@@ -9,6 +9,7 @@
         <version>1.0.0</version>
     </parent>
 
+    <artifactId>monitoring</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
