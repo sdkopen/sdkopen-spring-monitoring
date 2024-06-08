@@ -6,15 +6,15 @@
     <parent>
         <groupId>br.com.senioritymeter</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>monitoring</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>A simple monitoring library for Spring Boot applications.</description>
+    <description>A simple monitoring SDK for Spring Boot applications.</description>
     <url>https://github.com/SeniorityMeter/sm-spring-monitoring</url>
 
     <licenses>

@@ -7,16 +7,33 @@
 This library is a simple monitoring library for Spring Boot applications. It provides a simple configuration of provides monitoring for your applications.
 
 ___
-
 ### How to use
-#### 1. Add the following dependency to your `pom.xml` file:
+#### 1. Add the following parent to your `pom.xml` file:
+
+```xml
+<parent>
+    <groupId>br.com.senioritymeter</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.1</version>
+</parent>
+```
+___
+
+#### 2. add scanBasePackages to your SpringBootApplication
+```java
+@SpringBootApplication(scanBasePackages = {"br.com.senioritymeter", "your.package.name.here"})
+```
+
+___
+
+#### 3. Add the following dependency to your `pom.xml` file:
 
 ```xml
 <dependencies>
     <dependency>
         <groupId>br.com.senioritymeter</groupId>
         <artifactId>monitoring</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </dependency>
 </dependencies>
 ```
