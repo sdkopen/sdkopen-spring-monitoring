@@ -1,4 +1,4 @@
-package br.com.senioritymeter.monitoring.configuration;
+package br.com.sdkopen.monitoring.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
